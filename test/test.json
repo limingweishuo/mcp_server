@@ -1,0 +1,409 @@
+{
+    "_class": "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+    "actions": [
+        {},
+        {},
+        {
+            "_class": "com.axis.system.jenkins.plugins.downstream.yabv.BuildFlowAction"
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "_class": "jenkins.scm.api.metadata.ObjectMetadataAction"
+        },
+        {
+            "_class": "jenkins.scm.api.metadata.PrimaryInstanceMetadataAction"
+        },
+        {},
+        {},
+        {},
+        {
+            "_class": "nectar.plugins.rbac.roles.Roles"
+        },
+        {},
+        {},
+        {},
+        {
+            "_class": "org.jenkinsci.plugins.displayurlapi.actions.JobDisplayAction"
+        },
+        {},
+        {},
+        {
+            "_class": "org.jenkinsci.plugins.testresultsanalyzer.TestResultsAnalyzerAction"
+        },
+        {},
+        {},
+        {},
+        {
+            "_class": "com.cloudbees.plugins.credentials.ViewCredentialsAction"
+        }
+    ],
+    "description": "None",
+    "displayName": "master",
+    "displayNameOrNull": "None",
+    "fullDisplayName": "RaaS » APITest » master",
+    "fullName": "raas/APITest/master",
+    "name": "master",
+    "url": "https: //master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/",
+    "buildable": "True",
+    "builds": [
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2330,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2330/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2329,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2329/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2328,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2328/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2327,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2327/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2326,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2326/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2325,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2325/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2324,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2324/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2323,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2323/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2321,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2321/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2320,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2320/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2319,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2319/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2318,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2318/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2317,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2317/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2316,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2316/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2315,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2315/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2314,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2314/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2313,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2313/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2312,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2312/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2311,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2311/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2310,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2310/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2309,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2309/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2308,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2308/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2307,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2307/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2306,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2306/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2305,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2305/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2304,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2304/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2303,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2303/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2302,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2302/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2301,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2301/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2300,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2300/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+            "number": 2299,
+            "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2299/"
+        }
+    ],
+    "color": "yellow",
+    "firstBuild": {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 2299,
+        "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2299/"
+    },
+    "healthReport": [
+        {
+            "description": "Test Result: 2 tests failing out of a total of 45 tests.",
+            "iconClassName": "icon-health-80plus",
+            "iconUrl": "health-80plus.png",
+            "score": 95
+        },
+        {
+            "description": "Build stability: No recent builds failed.",
+            "iconClassName": "icon-health-80plus",
+            "iconUrl": "health-80plus.png",
+            "score": 100
+        }
+    ],
+    "keepDependencies": "False",
+    "lastBuild": {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 2330,
+        "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2330/"
+    },
+    "lastCompletedBuild": {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 2330,
+        "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2330/"
+    },
+    "lastFailedBuild": {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 2301,
+        "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2301/"
+    },
+    "lastStableBuild": "None",
+    "lastSuccessfulBuild": {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 2330,
+        "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2330/"
+    },
+    "lastUnstableBuild": {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 2330,
+        "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2330/"
+    },
+    "lastUnsuccessfulBuild": {
+        "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+        "number": 2330,
+        "url": "https://master-2.jenkins.autodesk.com/job/raas/job/APITest/job/master/2330/"
+    },
+    "nextBuildNumber": 2331,
+    "property": [
+        {
+            "_class": "org.jenkinsci.plugins.workflow.multibranch.BranchJobProperty",
+            "branch": {}
+        },
+        {
+            "_class": "com.sonyericsson.jenkins.plugins.bfa.model.ScannerJobProperty"
+        },
+        {
+            "_class": "hudson.model.ParametersDefinitionProperty",
+            "parameterDefinitions": [
+                {
+                    "_class": "hudson.model.ChoiceParameterDefinition",
+                    "defaultParameterValue": {
+                        "_class": "hudson.model.StringParameterValue",
+                        "name": "TEST_REGION",
+                        "value": "cosv3-us"
+                    },
+                    "description": "run API test on the following region: us, emea",
+                    "name": "TEST_REGION",
+                    "type": "ChoiceParameterDefinition",
+                    "choices": [
+                        "cosv3-us",
+                        "cosv3-emea"
+                    ]
+                },
+                {
+                    "_class": "hudson.model.ChoiceParameterDefinition",
+                    "defaultParameterValue": {
+                        "_class": "hudson.model.StringParameterValue",
+                        "name": "TEST_ENV",
+                        "value": "staging"
+                    },
+                    "description": "run API Test on which environment:dev,staging,prod",
+                    "name": "TEST_ENV",
+                    "type": "ChoiceParameterDefinition",
+                    "choices": [
+                        "staging",
+                        "dev",
+                        "prod"
+                    ]
+                },
+                {
+                    "_class": "hudson.model.ChoiceParameterDefinition",
+                    "defaultParameterValue": {
+                        "_class": "hudson.model.StringParameterValue",
+                        "name": "TEST_SUITE",
+                        "value": "full"
+                    },
+                    "description": "run which kinds of test suite:full,smoke or individual test suite class name(BonusJobsTest)",
+                    "name": "TEST_SUITE",
+                    "type": "ChoiceParameterDefinition",
+                    "choices": [
+                        "full",
+                        "smoke",
+                        "TimeConsumingRendering",
+                        "BonusJobsTest",
+                        "CancelTest",
+                        "FusionIntegrationTest",
+                        "HealthPageTest",
+                        "InternalDispatchTest",
+                        "InternalFeedbackTest",
+                        "InternalGalleryTest",
+                        "InternalJobTest",
+                        "InternalSimpleRenderTest",
+                        "InternalSourceTest",
+                        "InternalTranslateTest",
+                        "InternalUserTest",
+                        "InternalViewerTest",
+                        "InternalGlobalConfigTest",
+                        "LocalRenderTest",
+                        "NotificationTest",
+                        "PortalUsedAPITest",
+                        "PriceTest",
+                        "ProofLabTest",
+                        "QueryTest",
+                        "RenderSettingTest",
+                        "RenderTest",
+                        "ReRenderTest",
+                        "V2APITest",
+                        "WorkerTest",
+                        "ClicPriceTest",
+                        "ClicBalanceTest",
+                        "ClicJobRerenderTest",
+                        "ClicJobSimpleRenderTest",
+                        "ClicJobSubmitTest",
+                        "ClicLicenseTest",
+                        "ClicProfileTest",
+                        "DownloadAsyncTest",
+                        "JobQueueTest",
+                        "DownloadQueryPanoramaTest"
+                    ]
+                },
+                {
+                    "_class": "hudson.model.StringParameterDefinition",
+                    "defaultParameterValue": {
+                        "_class": "hudson.model.StringParameterValue",
+                        "name": "TEST_CASE",
+                        "value": "None"
+                    },
+                    "description": "test case name e.g,test_getBonusJob_004",
+                    "name": "TEST_CASE",
+                    "type": "StringParameterDefinition"
+                },
+                {
+                    "_class": "hudson.model.StringParameterDefinition",
+                    "defaultParameterValue": {
+                        "_class": "hudson.model.StringParameterValue",
+                        "name": "PORT",
+                        "value": "80"
+                    },
+                    "description": "run API Test on which port",
+                    "name": "PORT",
+                    "type": "StringParameterDefinition"
+                },
+                {
+                    "_class": "hudson.model.StringParameterDefinition",
+                    "defaultParameterValue": {
+                        "_class": "hudson.model.StringParameterValue",
+                        "name": "EMAIL_REPORT",
+                        "value": "None"
+                    },
+                    "description": "email address if you want to send test result to you",
+                    "name": "EMAIL_REPORT",
+                    "type": "StringParameterDefinition"
+                }
+            ]
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.job.properties.DisableConcurrentBuildsJobProperty"
+        },
+        {
+            "_class": "jenkins.branch.OverrideIndexTriggersJobProperty"
+        }
+    ],
+    "concurrentBuild": "False",
+    "inQueue": "False",
+    "queueItem": "None",
+    "resumeBlocked": "False"
+}
