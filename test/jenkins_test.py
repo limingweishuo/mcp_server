@@ -18,10 +18,10 @@ def wait_for_build_number(queue_url, auth, max_wait=60):
 def trigger_cosv3_noparams():
     # Jenkins 账号信息
     USERNAME = 'lim2'
-    API_TOKEN = '11dfa16e653e865bddd27a8b0c19daff46'
+    API_TOKEN = ''
 
     # Jenkins Job 的完整路径（注意：必须是 multibranch 的子 job）
-    JENKINS_URL = 'https://master-2.jenkins.autodesk.com'
+    JENKINS_URL = 'https://'
     JOB_PATH = 'job/raas/job/raas.portal/job/release%252Fcosv3_1.16/'
     TRIGGER_URL = f'{JENKINS_URL}/{JOB_PATH}/build'  # 如果是参数化构建则用 buildWithParameters
 
@@ -49,9 +49,9 @@ def trigger_cosv3_noparams():
 
 # 获取某个分支的最新的构建信息，而非日志
 def fetch_lastbuild_info():
-    JENKINS_URL = 'https://master-2.jenkins.autodesk.com'
+    JENKINS_URL = 'https://'
     JOB_PATH = 'job/raas/job/APITest/job/master'
-    auth = HTTPBasicAuth('lim2', '11dfa16e653e865bddd27a8b0c19daff46')
+    auth = HTTPBasicAuth('lim2', '')
     url = f"{JENKINS_URL}/{JOB_PATH}/lastBuild/api/json"
     resp = requests.get(url, auth=auth)
     if resp.status_code == 200:
@@ -65,9 +65,9 @@ def fetch_lastbuild_info():
 
 
 # 获取某个流水线执行需不需要参数
-JENKINS_URL = 'https://master-2.jenkins.autodesk.com'
+JENKINS_URL = 'https://'
 JOB_PATH = 'job/raas/job/APITest/job/master'
-auth = HTTPBasicAuth('lim2', '11dfa16e653e865bddd27a8b0c19daff46')
+auth = HTTPBasicAuth('lim2', '')
 
 url = f'{JENKINS_URL}/{JOB_PATH}/api/json'
 resp = requests.get(url, auth=auth)
